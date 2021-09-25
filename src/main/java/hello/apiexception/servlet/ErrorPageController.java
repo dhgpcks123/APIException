@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 
 @Slf4j
-@Controller
+//@Controller
 public class ErrorPageController {
 
     /**

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>springboot 5xx </h1>
+    <ul>
+        <li th:text="|timestamp : ${timestamp}|"></li>
+        <li th:text="|path : ${path}|"></li>
+        <li th:text="|statue : ${status}|"></li>
+        <li th:text="|message : ${message}|"></li>
+        <li th:text="|error : ${error}|"></li>
+        <li th:text="|exception : ${exception}|"></li>
+        <li th:text="|errors : ${errors}|"></li>
+        <li th:text="|trace : ${trace}|"></li>
+    </ul>
+<!-- 오류 관련 내부 정보를 노출하는 게 보안상 문제가 될 수 있다. -->
+<!-- 기본은 메시지, 예외, 오류, 추적 null로 막아뒀음.-->
+<!--application.properties에서 보여줄 수는 있음.-->
+</body>
+</html>

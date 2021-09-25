@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  *  예외 처리 Servlet 방식
  *  : 관련 오류가 발생하면 path 요청할 수 있도록 spring boot가 커스터마이징을 제공해준다.
  */
-@Component // 스프링 빈에 등록
+//@Component // 스프링 빈에 등록
 public class WebServerCustomizer implements WebServerFactoryCustomizer<ConfigurableWebServerFactory> {
 
     @Override
