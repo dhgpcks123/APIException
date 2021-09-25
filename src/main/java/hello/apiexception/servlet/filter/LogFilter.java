@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.UUID;
 
+/**
+ *  예외 처리 Servlet 방식에서 Filter 처리 (servlet 기술)
+ */
 @Slf4j
 public class LogFilter implements Filter {
 
